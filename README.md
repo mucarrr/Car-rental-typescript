@@ -49,3 +49,6 @@ src/
 
 Uygulama, araç verilerini [OpenDataSoft API](https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/all-vehicles-model) üzerinden çekmektedir. API, araçları marka, model ve yıl gibi parametrelere göre filtreleme imkanı sunmaktadır.
 
+## Preview of the Project 
+![](car-rental.gif)
+
