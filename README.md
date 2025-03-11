@@ -1,17 +1,17 @@
-# 🚗 Car Rental - Araç Kiralama Uygulaması
+# 🚗 Car Rental Application
 
-Modern ve kullanıcı dostu bir araç kiralama web uygulaması. React, TypeScript ve Tailwind CSS ile geliştirilmiştir.
+A modern and user-friendly car rental web application. Developed with React, TypeScript, and Tailwind CSS.
 
-## 🌟 Özellikler
+## 🌟 Features
 
-- 🔍 Araçları marka, model ve yıla göre filtreleme
-- 📱 Tamamen responsive tasarım
-- 🖼️ Gerçekçi araç görselleri
-- 📊 Sayfalama sistemi
-- 💰 Otomatik fiyat hesaplama
-- 🔍 Detaylı araç bilgileri
+- 🔍 Filter cars by make, model, and year
+- 📱 Fully responsive design
+- 🖼️ Realistic car visuals
+- 📊 Pagination system
+- 💰 Automatic price calculation
+- 🔍 Detailed vehicle information
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
 - **Frontend**: React 19, TypeScript
 - **Routing**: React Router DOM 7
@@ -20,32 +20,35 @@ Modern ve kullanıcı dostu bir araç kiralama web uygulaması. React, TypeScrip
 - **Animation**: Motion
 - **Component Libraries**: React Select, React Paginate
 
-## 📂 Proje Yapısı
+## 📂 Project Structure
 
 ```
 src/
-├── components/         # UI bileşenleri
-│   ├── button/         # Buton bileşenleri
-│   ├── filter/         # Filtreleme bileşenleri
-│   ├── header/         # Başlık bileşeni
-│   ├── hero/           # Ana sayfa hero bileşeni
-│   ├── list/           # Araç listesi ve kart bileşenleri
-│   ├── modal/          # Modal bileşeni
-│   └── warning/        # Uyarı mesajları bileşeni
-├── pages/              # Sayfa bileşenleri
-│   └── home/           # Ana sayfa
-├── types/              # TypeScript tip tanımlamaları
-├── utils/              # Yardımcı fonksiyonlar
-│   ├── CalcPrice.ts    # Fiyat hesaplama
-│   ├── constants.ts    # Sabit değerler
-│   ├── generateImage.ts # Araç görseli oluşturma
-│   └── service.ts      # API servisleri
-├── App.tsx             # Ana uygulama bileşeni
+├── components/         # UI components
+│   ├── button/         # Button components
+│   ├── filter/         # Filtering components
+│   ├── header/         # Header component
+│   ├── hero/           # Home page hero component
+│   ├── list/           # Vehicle list and card components
+│   ├── modal/          # Modal component
+│   └── warning/        # Warning messages component
+├── pages/              # Page components
+│   └── home/           # Home page
+├── types/              # TypeScript type definitions
+├── utils/              # Helper functions
+│   ├── CalcPrice.ts    # Price calculation
+│   ├── constants.ts    # Constant values
+│   ├── generateImage.ts # Vehicle image generation
+│   └── service.ts      # API services
+├── App.tsx             # Main application component
 ├── index.css           # Global CSS
-└── main.tsx            # Uygulama giriş noktası
+└── main.tsx            # Application entry point
 ```
 
-## 🔄 API Kullanımı
+## 🔄 API Usage
 
-Uygulama, araç verilerini [OpenDataSoft API](https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/all-vehicles-model) üzerinden çekmektedir. API, araçları marka, model ve yıl gibi parametrelere göre filtreleme imkanı sunmaktadır.
+The application fetches vehicle data from the [OpenDataSoft API](https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/all-vehicles-model). The API provides the ability to filter vehicles by parameters such as make, model, and year.
 
+## Preview of the Project
+
+![](car-rental.gif)
